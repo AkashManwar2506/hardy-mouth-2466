@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+
+        }
+        #grey{
+            height: 26px;
+            background-color:#f4f4f4;
+        }
+        #top{
+            height: 72px;
+        }
+        #top >div {
+            height: 72px;
+            margin: auto;
+            width: 160px;
+        }
+        #top > div img{
+            height: 60px;
+        }
+        #bottom {
+            display: flex;
+            border: 1px solid;
+            height: 40px;
+            text-align: center;
+            align-items: center;
+        }
+        #bottom > div {
+            display: flex;
+            border: 1px solid;
+            height: 40px;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 20px;
+        }
+        #input{
+            height: 35px;
+
+            width: 100%;
+        }
+        #bottom > :nth-child(3) {
+            display: flex;
+            width: 25%;
+            justify-content: space-between;
+        }
+        #bottom > :nth-child(2){
+            width: 50%;
+            border: 1px solid;
+            height: 100%;
+        }
+        #bottom > :nth-child(3) > div{
+            width: 33%;
+        }
+        #bottom > :nth-child(1) {
+            width: 15%;
+            display: flex;
+            align-items: center;
+        }
+        #bottom > :nth-child(1) > div{
+            border: 1px solid;
+            margin: auto;
+        }
+        #firstline{
+            height: 100px;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px 0px;
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #firstline > div {
+            width: 105.5px;
+            height: 107px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #firstline > div img{
+            border-radius: 50%;
+            width: 78px;
+            height: 78px;
+        }
+        
+
+        #secondline{
+            height: 100px;
+            width: 100%;
+            padding: 10px 0px;
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #secondline > div {
+            width: 105.5px;
+            height: 107px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #secondline > div img{
+            border-radius: 50%;
+            width: 78px;
+            height: 78px;
+        }
+
+        #thirdline{
+            height: 100px;
+            width: 100%;
+            padding: 10px 0px 30px 0px;
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #thirdline > div {
+            width: 105.5px;
+            height: 107px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #thirdline > div img{
+            border-radius: 50%;
+            width: 78px;
+            height: 78px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="grey"></div>
+        <div id="top">
+            <div>
+                <img src="../assets/Logo.png" alt="logo">
+            </div>
+        </div>
+        <div id="bottom">
+            <div>
+                <div>
+                    <h4>Shop by Category</h4>
+                </div>
+            </div>
+            <div><input id="input" type="text" placeholder="Search for a Product Brand or Category"></div>
+            <div>
+                <div><span></span><p>My Orders</p></div>
+                <div><span></span><p>No items in the bag</p></div>
+                <div><span></span><p>Name</p></div>
+            </div>
+        </div>
+    </nav>
+    
+    <div>
+        <div id="firstline">
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710342/1620736738312.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Central</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498074/1613028372599.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Pantaloons</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498091/1620736830834.png?imwidth=140&impolicy=hq" alt="">
+                <p>U.S.Polo Assn.</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/994845/1643780245028.png?imwidth=140&impolicy=hq" alt="">
+                <p>Brand Factory</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498086/1610536486321.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Levi's</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498239/1620736478260.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>ONLY</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498254/1610536539307.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>UCB</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498081/1583915454539.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>BIBA</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/994846/1643780303875.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Bewakoof</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498075/1593586492547.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Myntra</p>
+            </div>
+        </div>
+        <div id="secondline">
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498530/1610537092744.png?imwidth=140&impolicy=hq" alt="">
+                <p>Iconic</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498114/1610537113386.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Raymonds</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498115/1610537339349.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Jockey</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498256/1620736733672.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Vero Moda</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498129/1613028463583.png?imwidth=140&impolicy=hq" alt="">
+                <p>Beverly Hills</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498127/1610537689405.png?imwidth=140&impolicy=hq" alt="">
+                <p>Madame</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710419/1610542731323.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Peter England</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710420/1610543135214.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Van Heusen</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498111/1610543084890.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Louise Philippe</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710421/1610543158966.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Planet Fashion</p>
+            </div>
+        </div>
+        <div id="thirdline">
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995524/1643867277967.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Bata</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995525/1643867496758.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Nike</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995526/1643867362885.png?imwidth=140&impolicy=hq" alt="">
+                <p>Puma</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995527/1643867532232.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Khadim's</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995528/1643867625370.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Red Chief</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710655/1643866806024.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Speedo</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995529/1643867506442.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Sports Station</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995530/1643867664954.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Woodland</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710654/1643866837835.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Metro shoes</p>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710657/1613028563419.jpg?imwidth=140&impolicy=hq" alt="">
+                <p>Mochi</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
