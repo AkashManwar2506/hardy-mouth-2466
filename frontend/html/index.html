@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <style>
         *{
             margin: 0%;
@@ -83,6 +84,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            gap: 10px;
         }
         #firstline > div img{
             border-radius: 50%;
@@ -105,6 +107,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            gap: 10px;
         }
         #secondline > div img{
             border-radius: 50%;
@@ -126,12 +129,56 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            gap: 10px;
         }
         #thirdline > div img{
             border-radius: 50%;
             width: 78px;
             height: 78px;
         }
+
+        .heading1{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .mid{
+            display: flex;
+
+            margin: auto;
+            justify-content: space-evenly;
+        }
+        .mid > div{
+            width: 20%;
+        }
+        .mid > div :hover{
+            cursor: pointer;
+        }
+        .mid > div img{
+            width: 100%;
+        }
+        .mid > div :nth-child(2){
+            padding-top: 20px;
+            text-align: center;
+        }
+        .zoom{
+            transition: transform .5s;
+        }
+        .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+        }
+        .segment{
+            width: 100px;
+            height: 5px;
+            background-color: #ef4e28;
+            border-radius: 2px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
     </style>
 </head>
 <body>
@@ -285,5 +332,51 @@
             </div>
         </div>
     </div>
+    <h1 class="heading1">Grocery & Home Furnishing</h1>
+    <div class="mid">
+        
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/498479/1613247367528.png?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Big Bazaar</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/498482/1620737072141.png?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Urban Ladder</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/498480/1620737097910.jpg?imwidth=414&impolicy=hq" alt="">
+            <div><h2>@home</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/498484/1610566898069.jpg?imwidth=414&impolicy=hq" alt="">
+            <div><h2>More</h2></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="segment"></div>
+    <h1 class="heading1">Grocery & Home Furnishing</h1>
+    <div class="mid">
+        
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/711188/1613028659969.png?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Kalyan | Get 20% Cashback</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/711194/1620745874093.jpg?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Jewelfina</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/711199/1613028660058.jpg?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Tanishq</h2></div>
+        </div>
+        <div>
+            <img class="zoom" src="https://assetscdn1.paytm.com/images/catalog/view_item/711200/1620745456365.jpg?imwidth=414&impolicy=hq" alt="">
+            <div><h2>Upto 16% Cashback</h2></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="segment"></div>
 </body>
 </html>
